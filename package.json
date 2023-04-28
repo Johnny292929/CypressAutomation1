@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "cypress-slow-down": "^1.2.1"
+  },
+
+  "scripts":{
+
+    "NavigationTest": "cypress run --spec cypress/e2e/RegressionTests/Test1.cy.js --headed"
+  }
+}
