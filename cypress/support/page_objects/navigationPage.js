@@ -57,7 +57,6 @@ export class NavigationPage{
     schedulerPage()
     {
         cy.contains('Scheduler').click()
-        //cy.contains('Scheduler').click()
         cy.get('.dropdown-menu').contains('Scheduler').click()
         cy.title().should('eq', 'TSHARP - Scheduler')
        
@@ -151,7 +150,7 @@ export class NavigationPage{
     {
         cy.contains('Reports').click()
         cy.contains('Iparts Pass Analysis').click()
-        cy.title().should('eq', 'Iparts Pass Analysis')
+        cy.title().should('eq', 'TSHARP - Iparts Pass Analysis')
     }
     setUpPage()
     {

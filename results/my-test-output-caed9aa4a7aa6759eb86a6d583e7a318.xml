@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="159.345" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-04-27T03:42:04" tests="0" file="cypress\e2e\RegressionTests\Test1.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Test with Page Objects" timestamp="2023-04-27T03:42:04" tests="1" time="159.323" failures="0">
-    <testcase name="Test with Page Objects Verify Navigation Across Pages" time="159.029" classname="Verify Navigation Across Pages">
-    </testcase>
-  </testsuite>
-</testsuites>

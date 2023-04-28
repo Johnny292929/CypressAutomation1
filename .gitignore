@@ -1,4 +1,6 @@
 node_modules
+results
 cypress/e2e/Temp
 cypress/videos
-results
+cy.env.json
+screenshots

@@ -6,7 +6,7 @@ module.exports = defineConfig({
     runMode: 1
   },
   pageLoadTimeout: 200000,
-  defaultCommandTimeout: 200000,
+  defaultCommandTimeout: 20000,
   projectId: 'm61j1c',
 
   e2e: {setupNodeEvents(on, config) {
