@@ -8,7 +8,6 @@
   },
 
   "scripts":{
-
     "NavigationTest": "cypress run --spec cypress/e2e/RegressionTests/Test1.cy.js --headed"
   }
 }
